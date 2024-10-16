@@ -1,4 +1,4 @@
-package br.com.barbosa;
+package com.barbosa.restwithspringbootandjava;
 
 public class Greeting {
 

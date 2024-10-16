@@ -1,4 +1,4 @@
-package br.com.barbosa;
+package com.barbosa.restwithspringbootandjava;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

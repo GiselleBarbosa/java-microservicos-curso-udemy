@@ -1,4 +1,4 @@
-package br.com.barbosa;
+package com.barbosa.restwithspringbootandjava;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
