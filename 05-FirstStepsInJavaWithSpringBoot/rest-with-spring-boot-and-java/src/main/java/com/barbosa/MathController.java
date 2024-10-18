@@ -1,4 +1,4 @@
-package com.barbosa.restwithspringbootandjava;
+package com.barbosa;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
-
-import static org.apache.tomcat.util.http.parser.HttpParser.isNumeric;
 
 @RestController
 public class MathController {
