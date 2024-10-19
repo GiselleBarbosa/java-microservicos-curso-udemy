@@ -1,5 +1,6 @@
 package com.barbosa;
 
+import com.barbosa.exceptions.UnsupportedMathOperationException;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -16,7 +17,7 @@ public class MathController {
             throws Exception {
 
         if (!isNumeric(number1) || !isNumeric(number2)) {
-            throw new Exception("Numero invalido!");
+            throw new UnsupportedMathOperationException("Please set a numeric value!");
         }
         return convertToDouble(number1) + convertToDouble(number2);
     }
